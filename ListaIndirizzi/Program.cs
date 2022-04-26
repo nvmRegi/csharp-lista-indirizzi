@@ -25,7 +25,9 @@ while (!file.EndOfStream)
 
         listaIndirizzi.Add(new Indirizzo(nome, cognome, via, citta, provincia, ZIP));
     }
-    
-
+    else
+    {
+        Console.WriteLine("Formato indirizzo non valido");
+    }
 
 }
